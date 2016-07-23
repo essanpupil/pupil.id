@@ -1,8 +1,12 @@
 ---
 layout: default
-title: Ingatan dunia maya
 ---
-<div class="blurb">
-	<h1>Disinilah saya meninggalkan jejak</h1>
-	<p>Selamat datang di website saya, semoga anda temukan apa yang anda cari.</p>
-</div><!-- /.blurb -->
+
+<div id="home">
+  <h2>Tulisan-tulisan saya</h2>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

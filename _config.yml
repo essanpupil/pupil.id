@@ -1,2 +1,12 @@
-name: Ikhsan Noor Rosyidin, Pria Berjaket Hitam
-markdown: kramdown
+name: Ikhsan Noor Rosyidin
+markdown: redcarpet
+highlighter: pygments
+github: https://www.github.com/essanpupil
+about: Seorang programmer yang cukup tahu beberapa hal.
+urls:
+    - text: github
+      url: https://github.com/essanpupil
+    - text: twitter
+      url: https://twitter.com/essanpupil
+    - text: linkedin
+      url: https://id.linkedin.com/in/essanpupil
