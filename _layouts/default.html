@@ -11,6 +11,25 @@
         <link rel="stylesheet" href="/css/main.css">
     </head>
     <body>
+    <!-- facebook sdk developer code -->
+    <script>
+	window.fbAsyncInit = function() {
+		FB.init({
+			appId      : '586519044862087',
+			xfbml      : true,
+			version    : 'v2.5'
+		});
+	};
+
+	(function(d, s, id){
+        	var js, fjs = d.getElementsByTagName(s)[0];
+	     	if (d.getElementById(id)) {return;}
+	        js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- facebook code ends here -->
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-3">
@@ -48,24 +67,5 @@
 		</div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
-    <!-- facebook sdk developer code -->
-    <script>
-	window.fbAsyncInit = function() {
-		FB.init({
-			appId      : '586519044862087',
-			xfbml      : true,
-			version    : 'v2.5'
-		});
-	};
-
-	(function(d, s, id){
-        	var js, fjs = d.getElementsByTagName(s)[0];
-	     	if (d.getElementById(id)) {return;}
-	        js = d.createElement(s); js.id = id;
-		js.src = "//connect.facebook.net/en_US/sdk.js";
-		fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));
-    </script>
-    <!-- facebook code ends here -->
     </body>
 </html>
