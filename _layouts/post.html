@@ -6,6 +6,7 @@ layout: default
 
 <div class="content">
 	<div class="post">{{ content }}</div>
+	{% include share_buttons.html url=page.url title=page.title %}
 	{% if page.comments %}
 		<div id="disqus_thread"></div>
 		<script type="text/javascript">

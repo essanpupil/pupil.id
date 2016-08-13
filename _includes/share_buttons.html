@@ -1,0 +1,41 @@
+<!-- code for facebook share button -->
+<a href="https://www.facebook.com/dialog/share?app_id=586519044862087&display=popup&href=http://pupil.id{{ include.url }}&redirect_uri=http://pupil.id{{ include.url }}">
+	<!-- use the facebook logo for the link -->
+	<img
+		alt="..."
+		class="footer-icon"
+		width="25px"
+		src="{{ site.baseurl }}/img/share-buttons/facebook.png">
+	</img>
+</a>
+
+<!-- Code for linkedin share button -->
+<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://pupil.id{{ include.url }}&title={{ include.title }}&source={{ include.title }}">
+	<!-- use the linkedin logo for the link -->
+	<img alt="..."
+		class="footer-icon"
+		width="34px"
+		src="{{ site.baseurl }}/img/share-buttons/linkedin.png">
+	</img>
+</a>
+
+<!-- Code for Google+ share button -->
+<a href="https://plus.google.com/share?url=http://pupil.id{{ include.url }}&hl=en-US"
+	onclick="javascript:window.open(this.href,'',
+	'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+	<!-- use the google+ logo for the link -->
+	<img alt="..." class="footer-icon" width="28px"
+		src="{{ site.baseurl }}/img/share-buttons/google.png">
+	</img>
+</a>
+
+<!-- code for twitter share button -->
+<a href="https://twitter.com/share?
+	text={{ page.title }}
+	&url={{ page.shorturl }}
+	&via=essanpupil">
+	<!-- use the twitter logo for the link -->
+	<img alt="..."
+		class="footer-icon"
+		src="{{ site.baseurl }}/img/share-buttons/twitter.png">
+</a>
