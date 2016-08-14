@@ -19,3 +19,5 @@ class CustomTestRunner(DiscoverRunner):
             action='store_true', default=False, dest='headless',
             help='Add this options to do headless browser testing')
 ```
+
+Untuk mengetahui apakah penambahan custom argument berhasil, anda bisa menggunakan command  `python manage.py test -h`, apabila berhasil, maka custom argument yang anda buat akan ditampilkan.
