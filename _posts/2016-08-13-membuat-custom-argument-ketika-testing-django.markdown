@@ -15,7 +15,7 @@ class CustomTestRunner(DiscoverRunner):
 
     @classmethod
     def add_arguments(cls, parser):
-        parser.add_argument(
-            '--headless', action='store_true', default=False, dest='headless',
+        parser.add_argument('--headless',
+            action='store_true', default=False, dest='headless',
             help='Add this options to do headless browser testing')
 ```
