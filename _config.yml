@@ -1,4 +1,4 @@
-name: essanpupil
+name: pupil
 github: https://www.github.com/essanpupil
 about: Programmer yang tahu beberapa hal.
 urls:
@@ -8,3 +8,4 @@ urls:
       url: https://twitter.com/essanpupil
     - text: linkedin
       url: https://id.linkedin.com/in/essanpupil
+gems: [jekyll-gist]
