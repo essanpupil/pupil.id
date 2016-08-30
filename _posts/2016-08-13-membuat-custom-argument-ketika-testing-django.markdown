@@ -3,7 +3,7 @@ layout: post
 title: "Membuat Custom Argument pada Django Testing"
 date: 2016-08-13 22:45:41
 categories: django
-comment: True
+comments: True
 ---
 Untuk menjalankan testing dj Django, cukup dengan perintah `./manage.py test`. Beberapa argument optional yang bisa dijalankan ketika testing anrtara lain:  
 
