@@ -1,11 +1,23 @@
-name: pupil
-github: https://www.github.com/essanpupil
-about: Programmer yang tahu beberapa hal.
-urls:
-    - text: github
-      url: https://github.com/essanpupil
-    - text: twitter
-      url: https://twitter.com/essanpupil
-    - text: linkedin
-      url: https://id.linkedin.com/in/essanpupil
-gems: [jekyll-gist]
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: pupil >> Ikhsan Noor Rosyidin
+email: jakethitam1985@gmail.com
+
+#write html inside the double quotes to display in jumbotron
+description: "<h3>Hello, world!</h3><h1>Catatan Programmer</h1>Semoga tulisan ini dapat membantu teman-teman pembaca."
+
+
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://pupil.id" # the base hostname & protocol for your site
+twitter_username: essanpupil
+github_username:  essanpupil
+
+# Build settings
+markdown: kramdown

@@ -1,71 +1,14 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>{% if page.title %} {{ page.title }} {% else %} {{ site.name }} {% endif %}</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/css/syntax.css">
-    	<link href="/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="/css/main.css">
-    </head>
-    <body>
-    <!-- facebook sdk developer code -->
-    <script>
-	window.fbAsyncInit = function() {
-		FB.init({
-			appId      : '586519044862087',
-			xfbml      : true,
-			version    : 'v2.7'
-		});
-	};
 
-	(function(d, s, id){
-        	var js, fjs = d.getElementsByTagName(s)[0];
-	     	if (d.getElementById(id)) {return;}
-	        js = d.createElement(s); js.id = id;
-		js.src = "//connect.facebook.net/en_US/sdk.js";
-		fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));
-    </script>
-    <!-- facebook code ends here -->
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-3">
-					<a href="/" >
-						<h1>{{ site.name }}</h1>
-						<img id="about" src="/img/logo.jpg" height="75px" width="75px" />
-					</a>
-					<br />
+  {% include head.html %}
 
-					<strong>navigasi</strong><br />
-					<a href="/">home</a> <br />
-					{% for i in site.urls %}
-						<a class="about" href="{{ i.url }}">{{ i.text }}</a><br />
-					{% endfor %}
-					
-					{% if site.about %}
-					<div id="about">
-						<strong>tentang saya</strong><br />
-						{{ site.about }}
-					</div>
-					{% endif %}
-				</div>
-				<div class="col-sm-9">
-					
-					{{ content }}
-					
-					<footer>
-						&copy; {{ site.name }}
-						{% if site.github %} 
-							- <a href="{{ site.github }}">{{ site.github }}</a>
-						{% endif %}
-					</footer>
-				</div>	
-			</div>
-		</div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    </body>
+  <body>
+{% include header.html %}
+<section>
+{{content}}
+</section>
+{% include footer.html %}
+  </body>
+
 </html>
