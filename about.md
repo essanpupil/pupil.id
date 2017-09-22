@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Tentang saya
-permalink: /tentang-saya/
 ---
 <h1>Menulis kode, baris demi baris.</h1>
 <p>Halo, nama saya Ikhsan Noor Rosyidin, pekerjaan saya programmer dan hobi saya membuat program komputer.</p>
