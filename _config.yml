@@ -18,10 +18,11 @@ share:
 
 social:
   github: essanpupil
-  stackoverflow: ''
-  linkedin:
-  instagram: ''
-  lastfm: ''
+  stackoverflow: 1084903
+  linkedin: essanpupil
+  twitter: essanpupil
+  instagram:
+  lastfm:
   rss: feed.xml
 
 # Google Analytics key, leave blank to ignore
