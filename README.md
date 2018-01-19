@@ -1,7 +1,7 @@
 # pupil.id
 
 ## Local server setup
-1. `sudo apt install ruby ruby-dev build-essention`
+1. `sudo apt install ruby ruby-dev build-essention zlib1g-dev libcurl4-openssl-dev`
 2. `sudo gem install bundler`
 3. `git clone git@github.com:essanpupil/essanpupil.github.io.git`
 4. `cd essanpupil.github.io`
