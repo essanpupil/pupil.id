@@ -2,7 +2,6 @@
 layout: post
 title: "Reset Cabang Git di Lokal ke Cabang Remote"
 date: 2018-09-28 01:00:00
-categories: git
 comments: True
 tags:
   - git

@@ -2,7 +2,6 @@
 layout: post
 title: "Fungsi Python time.tzset() Tidak Dapat Digunakan di Windows"
 date: 2018-09-24 23:55:00
-categories: python
 comments: True
 tags:
   - python
