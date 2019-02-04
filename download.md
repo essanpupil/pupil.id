@@ -1,7 +1,5 @@
 ---
 layout: page
-title: Project
-permalink: /project/
 ---
 
 <h1>Project yang pernah saya kerjakan</h1>
